@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js" integrity="sha512-6PM0qYu5KExuNcKt5bURAoT6KCThUmHRewN3zUFNaoI6Di7XJPTMoT6K0nsagZKk2OB4L7E3q1uQKHNHd4stIQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <title>Document</title>
 </head>
 <body>
@@ -11,22 +13,30 @@
         <nav>
             <img src="./assets/images/logo.png" width="78" height="82" />
             <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>Computer</li>
-                <li>Laptop</li>
-                <li>Products</li>
-                <li>Contac US</li>
-                <li>Search</li>
-                <li>Login</li>
+                <li><a href="#" class="selected">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Computer</a></li>
+                <li><a href="#">Laptop</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Contac US</a></li>
+                <li><a href="#"><i class="fa-solid fa-magnifying-glass fa-beat-fade" style="color: #fbf9f9;"></i></a></li>
+                <li><a href="#">Login</a></li>
             </ul>
         </nav>
-        <h3>Computer and Laptop</h3>
-        <h1>Accesories</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis ipsam magni quibusdam in, culpa dolorum repudiandae neque, autem pariatur consectetur atque recusandae inventore laudantium doloremque tempore necessitatibus sit cumque esse?</p>
-        ><img src="./assets/images/pct.png" width="696" height="278" />
-        <a href="#">Buy Now</a>
-        <a href="#">Contac</a>
+        <div class="header-content">
+            <div class="header-content-text">
+                <h3 class="header-subtitle">Computer and Laptop</h3>
+                <h1 class="header-title">Accesories</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis ipsam magni 
+                quibusdam in, culpa dolorum repudiandae neque, autem pariatur consectetur atque 
+                recusandae inventore laudantium doloremque tempore necessitatibus sit cumque esse?</p>
+                <div class="header-content-btns">
+                    <a href="#" class="btn">Buy Now</a>
+                    <a href="#" class="btn">Contac</a>
+                </div>
+            </div>    
+            <img class="header-img" src="./assets/images/pct.png" width="696" height="278" />
+        </div>
     </header>
     
     <section></section>
